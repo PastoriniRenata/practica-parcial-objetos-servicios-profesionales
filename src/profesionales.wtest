@@ -1,0 +1,49 @@
+// import profesionales.*
+// import provincias.*
+
+// // Inicializaciones de Universidades adicionales
+// const uba = new Universidad(provincia = entreRios, honorariosRecom = 5000)
+// const unlp = new Universidad(provincia = santaFe, honorariosRecom = 4000)
+// const utn = new Universidad(provincia = corrientes, honorariosRecom = 4500)
+// const unq = new Universidad(provincia = santaFe, honorariosRecom = 3200)
+// const unc = new Universidad(provincia = entreRios, honorariosRecom = 3800)
+
+// // Inicializaciones de Profesionales vinculados a universidades
+// const profesionalUTN = new ProfesionalUniversidad(universidad = utn)
+// const profesionalUNQ = new ProfesionalUniversidad(universidad = unq)
+// const profesionalUNC = new ProfesionalUniversidad(universidad = unc)
+// const profesionalUBA = new ProfesionalUniversidad(universidad = uba)
+
+// // Inicializaciones de Profesionales del Litoral
+
+// const profesionalLitoral = new ProfesionalLitoral(universidad = utn)
+// const profesionalLitoral1 = new ProfesionalLitoral(universidad = unq)
+// const profesionalLitoral2 = new ProfesionalLitoral(universidad = unc)
+// const profesionalLitoral3 = new ProfesionalLitoral(universidad = uba)
+
+// // Inicializaciones de Profesionales Libres con diferentes configuraciones
+// const profesionalLibre = new ProfesionalLibre(universidad = unlp, provinciasEnLasQuePuedeTrabajar = #{entreRios, santaFe}, honorarioPorHora = 3500)
+// const profesionalLibre1 = new ProfesionalLibre(universidad = uba, provinciasEnLasQuePuedeTrabajar = #{entreRios, santaFe}, honorarioPorHora = 3500)
+// const profesionalLibre2 = new ProfesionalLibre(universidad = unlp, provinciasEnLasQuePuedeTrabajar = #{corrientes}, honorarioPorHora = 2000)
+// const profesionalLibre3 = new ProfesionalLibre(universidad = utn, provinciasEnLasQuePuedeTrabajar = #{corrientes, santaFe, entreRios}, honorarioPorHora = 4000)
+// const profesionalLibre4 = new ProfesionalLibre(universidad = unq, provinciasEnLasQuePuedeTrabajar = #{entreRios}, honorarioPorHora = 4500)
+
+// // Inicializaciones de Empresas de Servicios con diferentes configuraciones
+// const empresa = new EmpresaDeServicios(honorarioRef = 3000, profesionales = #{profesionalUBA, profesionalLitoral, profesionalLibre})
+// const empresa1 = new EmpresaDeServicios(honorarioRef = 3000, profesionales = #{profesionalUBA, profesionalLitoral1, profesionalLibre1, profesionalUTN})
+// const empresa2 = new EmpresaDeServicios(honorarioRef = 3200, profesionales = #{profesionalUNQ, profesionalLitoral2, profesionalLibre2, profesionalUNC, profesionalLibre3})
+// const empresa3 = new EmpresaDeServicios(honorarioRef = 2500, profesionales = #{profesionalUBA, profesionalLitoral3, profesionalLibre4, profesionalUTN, profesionalLibre1, profesionalLibre2})
+
+
+// describe "tests de empresas con profesionales" {
+//   test "description" {
+//     //assert.equals(, empresa.)// - cuántos (un número) de sus profesionales contratados estudió en una determinada universidad.
+//     // - el conjunto formado por sus _profesionales caros_.   
+//     // O sea, aquellos cuyo honorario es mayor al honorario de referencia de la empresa.
+//     // - el conjunto de las _universidades formadoras_, o sea, las universidades donde estudiaron sus profesionales contratados, sin repetidos.
+//     // - el profesional _más barato_ (o sea, que sus honorarios son los más bajos).
+//     // - si _es de gente acotada_ (o sea, ningún profesional está habilitado para más de tres provincias, 
+//     // o lo que es equivalente, todos trabajan en a lo sumo tres provincias).
+    
+//   }
+// }
